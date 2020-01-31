@@ -1,0 +1,33 @@
+<html>
+    <title>ACCESS</title>
+    <style>
+        body {
+          background-image: url('tick.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+             }
+          font.sansserif {
+          font-family: Arial, Helvetica, sans-serif;
+             }
+          div.registered{
+          position: absolute;   
+             }
+          div.home{
+          position: absolute;
+          top:50px;
+          left:250px;
+             }
+        </style>
+           <div class="registered">
+             <h1><font class="sansserif" color="red">REGISTERED</font></h1> 
+           </div>
+           <div class="home">
+                <button onclick="home()">PLEASE CHOOSE YOUR PLAN</button>
+           </div>
+            <script>          
+                function home() {
+                location.replace("buttons.html")
+                }
+           </script>
+</html>

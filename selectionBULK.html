@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>selectBULK</title>
+        <style>
+             body {
+                background-color: #1c1c1c;
+            } 
+
+             .center {
+                      position: absolute;
+                      left: 0;
+                      top: 0px;
+                      width: 100%;
+                      text-align: center;
+                      font-size: 18px;
+                    }
+                    font.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.bulk{
+                position: absolute;
+                top:400px;
+                left:300px;
+        }
+        div.cut{
+                position: absolute;
+                top:400px;
+                left:900px;
+        }
+       
+        
+      
+        </style>
+    </head>
+    <body>
+        <div class="center"> 
+         <h1><font class="sansserif" color="orange">CHOOSE YOUR CHOICE</font></h1>   
+        </div>
+        <div class="bulk">
+                <button onclick="beginer()">BEGINNER</button><br>
+                <font class="sansserif" color="orange">(0-18 months)</font>
+
+        </div>
+        <div class="cut">
+                <button onclick="expert()">EXPERIENCED</button> <br>
+                <font class="sansserif" color="orange">(18 months & above)</font>
+            </div>
+           
+           
+    </body>
+    <script>
+            function beginer() {
+              location.replace("bulkbeg.html")
+            }
+            function expert() {
+              location.replace("bulkexp.html")
+            }
+           
+    </script>
+</html>

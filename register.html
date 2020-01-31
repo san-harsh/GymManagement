@@ -1,0 +1,94 @@
+<html>
+
+            <title>REGISTER</title>
+            <style>
+                    body {
+                        background-color: #1c1c1c
+                    } 
+                    </style>
+                    <style>
+
+					font.sansserif {
+					  font-family: Arial, Helvetica, sans-serif;
+					}
+
+                    </style>
+                     <style>
+                            .container {
+                              position: relative;
+                            }
+                            
+                            .bottomright {
+                              position: absolute;
+                              bottom: 8px;
+                              right: 16px;
+                              font-size: 18px;
+                              border: 3px solid #515a5a;
+                            }
+                            img.pos{
+                              position: absolute;
+                              top:52px;
+                            }
+                            img.pos{
+                                          position: absolute;
+                                          top:0px;
+                                          right: 0px;
+                                        }
+                                        div.update{
+                position: absolute;
+                top:500px;
+                left:300px;
+        }
+        div.retrieve{
+                position: absolute;
+                top:500px;
+                left:640px;
+        }
+        div.delete{
+                position: absolute;
+                top:500px;
+                left:900px;
+        }
+              </style>
+         <body>
+					<form action ="store.jsp" method="post">
+                    <font class="sansserif" color="#515a5a"> <center>:::REGISTRATION FORM:::</center></font> <br><br><br>
+                    <form method="POST" action="register.jsp">
+                            <font class="sansserif" color="#515a5a">ENTER FIRST NAME:</font> <center><input type="text" name="fname"></center><br>
+                            <font class="sansserif" color="#515a5a">ENTER MIDDLE NAME: <center><input type="text" name="mname"></center><br>
+                                <font class="sansserif" color="#515a5a"> <font class="sansserif" color="#515a5a"> ENTER LAST NAME: <center><input type="text" name="lname"></center><br>
+                        AGE: <center><input type="text" name="age"></center><br>
+                        GENDER:<br>(MALE/FEMALE) <br> <center><input type="text"name="gender"></center>
+                        <p style="text-align:left;">PHONE NO:</p>
+                        <center><input type="text" name="phone"></center><br>
+                       <center><input type="submit" value="submit"></center> 
+                       <img class="pos" src="regs.jpg" style="width:300px;height:560px;">
+                        
+                    </form>
+                    <div class="bottomright">DESIGNED BY <font class="sansserif" color="#cd292a">VIGNESH </font> AND <font  class="sansserif"color="#cd292a">HARSH </font></div>    
+					</form>
+					<div class="update">
+					  <form action="update.html">
+						<button>UPDATE</button>
+						</button>
+					  </form>
+					</div>
+                <div class="retrieve">
+                    <form action="retrieve.jsp">
+                      <button >RETRIEVE</button>
+                      </button>
+                    </form>
+                  </div>
+                  <div class="delete">
+                      <form action="delete.html">
+                        <button >DELETE</button>
+                        </button>
+                      </form>
+                    </div>
+           </body>       
+                   
+                   </script>
+                    
+    
+   
+</html> 
